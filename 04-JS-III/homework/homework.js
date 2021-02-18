@@ -3,18 +3,29 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un array
   // Tu código:
-}
+  const devolverPrimerElemento = [ 'juan', 'pedro', 'marcos', 'bautista' ];
+
+   return ( devolverPrimerElemento[0] )
+  }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  const devolverUltimoElemento = [ 'juan', 'pedro', 'marcos', 'bautista'];
+
+   return (devolverUltimoElemento[devolverUltimoElemento.length - 1]);
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  const obtenerLargoDelArray = [ 'juan', 'pedro', 'marcos', 'bautista'];
+
+   return (obtenerLargoDelArray[obtenerLargoDelArray.length]);
+   
+   
 }
 
 
@@ -23,6 +34,7 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  const incrementarPorUno = []
 }
 
 
@@ -30,6 +42,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  const agregarItemAlFinalDelArray = ['juan','pedro','marcos','bautista'];
+
+  agregarItemAlFinalDelArray.push('carlos');
 }
 
 
@@ -38,7 +53,11 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  const agregarItemAlComienzoDelArray = ['juan','pedro','marcos','bautista'];
+
+  agregarItemAlComienzoDelArray.unshift('carlos');
 }
+
 
 
 function dePalabrasAFrase(palabras) {
@@ -47,6 +66,8 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  const dePalabrasAFrase = ['hola','soy','bautista'];
+  console.log (dePalabrasAFrase);
 }
 
 
@@ -54,6 +75,10 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  if (arrayContiene = elemento);
+  return true;
+  return false;
+  
 }
 
 
@@ -61,6 +86,10 @@ function agregarNumeros(numeros) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  var agregarNumeros =[ 1 + 2 + 3 + 4 ]
+  for (var i = 0 ; i < agregarNumeros.length; i++){
+    console.log(i) 
+  }
 }
 
 
